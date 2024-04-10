@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de clientes</title>
+    <link rel="stylesheet" href="../css/tables.css">
+</head>
+<body>
+    <h1>Lista de clientes</h1>
+    <table id="clientesTable">
+        <thead>
+            <tr>
+                <th>id_cliente</th>
+                <th>nombre</th>
+                <th>apellido</th>
+                <th>fecha_nacimiento</th>
+                <th>fk_genero</th>
+                <th>telefono</th>
+                <th>correo</th>
+                <th>fk_direccion</th>
+                <th>fecha_creación</th>
+                <th>fecha_actualizacion</th>
+                <th>fk_creado_por</th>
+                <th>fk_actualizado</th>
+                <th>fecha_eliminado</th>
+                <th>fk_eliminado</th>
+            </tr>
+        </thead>
+        <tbody id="clientesBody">
+            <!-- Aquí se llenarán los datos de los usuarios -->
+        </tbody>
+    </table>
+
+    <script src="fetchclientes.js"></script>
+</body>
+</html>

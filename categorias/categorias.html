@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de categorias</title>
+    <link rel="stylesheet" href="../css/tables.css">
+</head>
+<body>
+    <h1>Lista de categorias</h1>
+    <table id="categoriasTable">
+
+        <thead>
+            <tr>
+                <th>ID_Categoria</th>
+                <th>nombre</th>
+                <th>fecha_creacion</th>
+                <th>fecha_actualizado</th>
+                <th>fk_creado_por</th>
+                <th>fk_actualizado</th>
+                <th>fecha_eliminacion</th>
+                <th>fk_eliminado_por</th>
+            </tr>
+        </thead>
+    
+        <tbody id="categoriasBody">
+            <!-- Aquí se llenarán los datos de los usuarios -->
+        </tbody>
+    </table>
+    <script src="fetchcategorias.js"></script>
+</body>
+</html>
